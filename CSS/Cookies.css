@@ -193,10 +193,6 @@ ul li:hover:after{
     height: 70px;
   }
 
-  .social-icon {
-    display: inline-block;
-    margin: 10px;
-  }
 
   .footer a{
     text-decoration: none;
