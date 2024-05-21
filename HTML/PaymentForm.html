@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Form</title>
+    <link rel="stylesheet" href="/CSS/paymentform.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Checkout Form</h2>
+        <form id="checkoutForm">
+            <div class="section">
+                <h3>1. Your Information</h3>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="section">
+                <h3>2. Billing Address</h3>
+                <label for="street">Home / Street / Barangay :</label>
+                <input type="text" id="street" name="street" placeholder="Home / Street / Barangay" required>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+
+            <div class="section">
+                <h3>3. Your Payment Information</h3>
+                <label>
+                    <input type="radio" name="paymentMethod" value="COD" required>
+                    <span>COD</span>
+                </label>
+                <label>
+                    <input type="radio" name="paymentMethod" value="PayPal" required>
+                    <span>PayPal</span>
+                </label>
+                <label>
+                    <input type="radio" name="paymentMethod" value="GCASH   " required>
+                    <span>GCASH</span>
+                </label>
+            </div>
+
+            <button type="submit">Checkout Now</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="/JavaScript/paymentform.js"></script>
+</body>
+</html>
