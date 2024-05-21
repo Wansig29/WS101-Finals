@@ -199,5 +199,6 @@ ul li:hover:after{
   .footer a{
     text-decoration: none;
     color: #495867;
+    margin:10px;
   }
 
