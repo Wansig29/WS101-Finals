@@ -1,0 +1,163 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+body{
+  height: 100vh;
+}
+#ulo
+{
+    background-color: pink;
+    border: 2px;
+    border-color: rgb(131, 39, 54);
+    height: 120px;
+    width: auto;
+    border-bottom: 4px solid #495867;
+
+}
+
+#ulo a{
+  text-decoration: none;
+  color: black;
+}
+
+#back-btn{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Playfair';
+    background-color: antiquewhite;
+    position: relative;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 5px;
+    right: -2px;
+}
+
+#pastryContainer{
+    background-color: rgb(240, 210, 177);
+}
+
+#Pastri{
+    background-color: pink;
+    text-align: center;
+    margin-top: -10px;
+}
+
+  #pastryContainer
+  {
+    display: grid;
+    grid-template-columns: repeat (3, 120px);
+    grid-template-rows:550px;
+    grid-template-areas:
+   "wan two tre por payb siks seben";
+   background-color: rgb(240, 210, 177);
+   height: auto;
+   justify-content: center;
+
+  }
+  .styleee
+  {
+    background-color: rgb(213, 100, 124);
+    border: 3px solid #c18c5d;
+    margin: 10px;
+    margin-top: 40px;
+    border: solid 1px grey;
+    border-radius: 7px;
+    transition: 1s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+  }
+  .styleee:hover{
+    transform: scale(1.3);
+    background: #c18c5d;
+    z-index: 2  ;
+
+  }
+
+  #one img {
+    width: max-content;
+    height: 310px;
+  }
+
+  #one {
+    width: max-content;
+    height: 310px;
+  }
+
+  #two img {
+    width: max-content;
+    height: 310px;
+  }
+
+  #two {
+    width: max-content;
+    height: 310px;
+  }
+
+  #tri img {
+    width: max-content;
+    height: 310px;
+  }
+
+  #tri {
+    width: max-content;
+    height: 310px;
+  }
+
+  #por img {
+    width: max-content;
+    height: 310px;
+  }
+
+  #por {
+    width: max-content;
+    height: 310px;
+  }
+
+  #payb img {
+    width: max-content;
+    height: 310px;
+  }
+
+  #payb {
+    width: max-content;
+    height: 310px;
+  }
+
+  #siks img{
+    width: max-content;
+    height: 310px;
+  }
+
+  #siks{
+    width: max-content;
+    height: 310px;
+  }
+
+  #seben img{
+    width: max-content;
+    height: 310px;
+  }
+
+  #seben{
+    width: max-content;
+    height: 310px;
+  }
+  
+  .footer {
+    background-color: white;
+    padding: 15px;   
+    text-align: center;
+    border-top:4px solid #495867 ;
+  }
+
+  .social-icon {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .footer a{
+    text-decoration: none;
+    color: #495867;
+  }
+
+

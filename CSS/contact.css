@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+body {
+    background-color: rgb(248, 174, 186);
+}
+
+.header-bar{
+    height: 200px;
+    background-color:rgb(238, 223, 182);
+    align-items: center;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr, 50px;
+    grid-template-rows: 200px;
+    grid-template-areas: 
+    "leftnav logo rightnav"
+    ;
+    border-bottom:4px solid #495867;
+}
+
+.left-nav{
+    grid-area: leftnav;
+}
+
+.right-nav{
+    grid-area: rightnav;
+}
+.left-nav ul, .right-nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-nav a ,.right-nav a{
+    text-decoration: none;
+    color: #2b2727;;
+    padding: 20px;
+    margin:50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header{
+    grid-area: logo;
+    text-align: center;
+
+}
+
+header > img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+
+header > h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+header>p{
+    font-size: 15px;
+}
+
+.centerdiv
+{
+height: 75vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(238, 223, 182);
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px gray;
+    line-height: 110px;
+}
+
+.container i{
+    transition: all 0.3s linear;
+}
+
+.container:hover i{
+    transform: scale(1.4);
+}
+
+.fa-instagram{
+    color: #495867;
+}
+
+.fa-facebook{
+    color: #495867;
+}
+
+.fa-envelope{
+    color: #495867;
+}
+

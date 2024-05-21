@@ -1,0 +1,312 @@
+* {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(248, 174, 186);
+}
+#head {
+    background-color: rgb(238, 223, 182);
+    margin: 0;
+    height: 180px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 4px solid #495867;
+}
+header button {
+    position: absolute;
+    left: 0;
+    top: 40px;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 30px;
+    background-color:burlywood;
+  }
+
+  button a{
+    text-decoration: none;
+    color: black;
+  }
+#logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+#head > h1
+{
+    margin-top: -8px;
+}
+
+
+ul{
+    position:absolute;
+    left:50%;
+    top:35%;
+    transform:translate(-50%,-50%);
+    list-style:none;
+  }
+  ul li{
+    display:inline-block;
+    padding:5px 20px;
+    text-align:center;
+    font-size:24px;
+    font-family: 'Playfair';
+    position:relative;
+    margin:10px
+    
+  }
+  ul li a{
+    text-decoration:none;
+    color:#000;
+    font-weight:700;
+    text-transform:uppercase;
+  }
+  ul li:before{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:20px;
+    left:0;
+    top:0;
+    border-top:5px solid rgb(238, 223, 182);
+    border-left:5px solid rgb(238, 223, 182);
+    opacity:0;
+    transition:0.5s;
+  }
+  ul li:hover:before{
+    opacity:1;
+    left:-10px;
+    top:-10px;
+  }
+  
+  ul li:after{
+    position:absolute;
+    content:'';
+    width:50px;
+    height:20px;
+    right:0;
+    bottom:0;
+    border-bottom:5px solid #495867;
+    border-right:5px solid #495867;
+    opacity:0;
+    transition:0.5s;
+  }
+  ul li:hover:after{
+    opacity:1;
+    right:-10px;
+    bottom:-10px;
+  }
+
+  #create-ainer
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px 500px 500px 500px;
+    grid-template-areas: 
+    "ci-N"
+    "wansi"
+    "alds"
+    "jcv";
+    margin-top: 120px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+  }
+  .creators
+  {
+    background-color: #c18c5d;
+    border: 2px solid rgb(238, 223, 182);
+    border-radius: 30px;
+    margin:20px;
+    transition: 1s;
+  }
+  .creators:hover{
+    transform: scale(1.0);
+    background:rgb(238, 223, 182);
+    box-shadow: 5px 5px 5px gray;
+    z-index: 1;
+  }
+
+  #description
+  {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin-left: 635px;
+  }
+  #description2
+  {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin-left: 640px;
+  }
+  #description3
+  {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin-left: 640px;
+  }
+  #description4
+  {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: justify;
+    margin-left: 630px;
+  }
+  #cin
+  {
+    text-align: center;
+    margin-top: -280px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 150px;
+  }
+  #cintro
+  {
+    text-align: center;
+    margin-left: 225px;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  #ci-N
+  {
+    grid-area: ci-N;
+  }
+  #kayci-n{
+    width:300px;
+    height: 300px;
+    border-radius: 150px;
+    margin:40px;
+    margin-left: 280px;
+    margin-top: -100px;
+  }
+  .name
+  {
+    color: #000000;
+  }
+
+  #juan
+  {
+    text-align: center;
+    margin-top: -280px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 150px;
+  }
+  #juanintro
+  {
+    text-align: center;
+    margin-left: 200px;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  #wansipic{
+    width:300px;
+    height: 300px;
+    border-radius: 150px;
+    margin:40px;
+    margin-left: 280px;
+    margin-top: -100px;
+  }
+  .frosting
+  {
+    width: 1300px;
+    height: 200px;
+    border-radius: 28px;
+  }
+  #wansi{
+    grid-area: wansi;
+  }
+   #aldss
+  {
+    text-align: center;
+    margin-top: -280px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 150px;
+  }
+  #wintro
+  {
+    text-align: center;
+    margin-left: 200px;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  #aldspic{
+    width:300px;
+    height: 300px;
+    border-radius: 150px;
+    margin:40px;
+    margin-left: 280px;
+    margin-top: -100px;
+  }
+
+  #alds
+  {
+    grid-area: alds;
+  }
+
+  #jeci
+  {
+    text-align: center;
+    margin-top: -280px;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 3px;
+    margin-left: 150px;
+  }
+  #carlintro
+  {
+    text-align: center;
+    margin-left: 275px;
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+  #jicipic{
+    width:300px;
+    height: 300px;
+    border-radius: 150px;
+    margin:40px;
+    margin-left: 280px;
+    margin-top: -100px;
+  }
+  #jvc
+  {
+    grid-area: jcv;
+  }
+  footer
+  {
+    border-top: 4px solid #495867;
+    height: 50px;
+    background-color: rgb(238, 223, 182);   
+    text-align: center;
+    margin-top: 80px;    
+  }
+
+  footer i{
+    margin: 10px;
+    text-decoration: none;
+    color:#495867 ;
+  }
