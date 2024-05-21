@@ -1,2 +1,0 @@
-# WS101-Finals
-WS101 FINALS
