@@ -112,6 +112,7 @@ table{
     border:2px solid black;
     width: 100%;
     padding: 20px;
+    height: 100%;
 }
 
 #title{
@@ -134,16 +135,20 @@ table{
     border-top-left-radius: 25px;
     border-bottom-right-radius: 25px;
     background-color: rgb(238, 223, 182);
+    text-align: center;
 }
+
 .ourStory a{
     font-size: 20px;
     text-align: center;
 }
+
 .ourStory img{ 
-    height: 250px;
-    width: 100%;
+    height:300px;
+    width: 90%;
     border-radius: 10px;
     justify-content:center;
+    object-fit: fill;
 }
 
 .ourStory a{
