@@ -192,6 +192,7 @@ ul li:hover:after{
     border-top:4px solid #495867 ;
     height: 70px;
     display:flex;
+    text-align:center;
   }
 
 
